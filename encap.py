@@ -8,6 +8,10 @@ class Student:
         print("Age=",self.__age)
         print("School=",Student.school)
 
+
+
+
+
 class Marks(Student):
     def marks(self,hindi,math):
         self.hindi=hindi
