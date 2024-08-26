@@ -16,7 +16,7 @@ class Marks(Student):
     def marks(self,hindi,math):
         self.hindi=hindi
         self.math=math
-    def complete_details(self):
+    def Complete_details(self):
         print("Name=",self.__name)
         print("Age=",self.__age)
         print("School=",Student.school)
